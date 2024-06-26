@@ -1,9 +1,6 @@
 # obs-home-assistant-plugin
 Plugin to watch changes on webpage in obs to trigger home assistant for custom triggers
 
-```markdown
-# OBS Web Monitor Plugin
-
 ## Overview
 
 The OBS Web Monitor Plugin monitors a specified webpage for changes, records those changes, and allows users to map the changes to Home Assistant API endpoints. This plugin provides a GUI for dynamic mapping of webpage changes to Home Assistant entities.
