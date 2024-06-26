@@ -63,34 +63,6 @@ The OBS Web Monitor Plugin monitors a specified webpage for changes, records tho
 
 ## Development
 
-### Project Structure
-
-```
-obs-web-monitor-plugin/
-├── src/
-│   ├── main.cpp
-│   ├── plugin.hpp
-│   ├── plugin.cpp
-│   ├── webpage_monitor.hpp
-│   ├── webpage_monitor.cpp
-│   ├── home_assistant_api.hpp
-│   ├── home_assistant_api.cpp
-│   ├── gui.hpp
-│   ├── gui.cpp
-│   └── utils/
-│       ├── http_client.hpp
-│       ├── http_client.cpp
-│       ├── json_parser.hpp
-│       └── json_parser.cpp
-├── include/
-│   └── obs/
-│       ├── obs-module.h
-│       └── obs-frontend-api.h
-├── CMakeLists.txt
-├── README.md
-└── LICENSE
-```
-
 ### Building from Source
 
 1. Ensure you have the required dependencies installed.
